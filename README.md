@@ -3,8 +3,8 @@
 
 A Wikipedia search engine that fetch 20 most relivant results to the user
  featuring:
-*User login
-*History List
+* User login
+* History List
 
  By Omar A. Al-Khunein
 
