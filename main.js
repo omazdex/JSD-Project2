@@ -35,6 +35,17 @@ function handleSubmit(event) {
   fetchResults(searchQuery);
 }
 
+// Using Fetch
+// fetch works differently than $.getJSON, for example,
+// where you can pass in a callback and log the data received from there.
+// Instead, fetch returns what is called a Promise 
+// which represents the result of an asynchronous operation.
+
+// Instead of passing a callback, 
+// you call .then() on it which is how you handle the result of a Promise. 
+// We also need to specify what type of data we are expecting (in this case, JSON) 
+// before we can access the data and use it.
+
 function fetchResults(searchQuery) {
   const endpoint = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${searchQuery}`;
   fetch(endpoint)
@@ -43,6 +54,17 @@ function fetchResults(searchQuery) {
       const results = data.query.search;
       displayResults(results);
     });
+
+    // fetch(endpoint)                //equivalent of the arrow function
+    // .then(function (response) {
+    //   return response.json();
+    // })
+    // .then(function (data) {
+    //     console.log(data);
+    // });
+    // .catch(function () {
+    //    console.log('An error occured');
+    // });
 
   const endpoint2 = `https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&prop=pageimages%7Cpageterms&generator=prefixsearch&redirects=1&formatversion=2&piprop=thumbnail&pithumbsize=250&pilimit=20&wbptterms=description&gpssearch=${searchQuery}&gpslimit=20`;
   fetch(endpoint2)
