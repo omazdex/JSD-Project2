@@ -2,6 +2,8 @@
 ### JavaScript-GA Project 2
  By Omar A. Al-Khunein
 
+#
+
 Using Fetch instead pf getJSON
 
 in getJSON you pass in a callback the data received from there.
