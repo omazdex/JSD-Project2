@@ -4,7 +4,7 @@
 
 #
 
-Using Fetch instead pf getJSON
+Using Fetch instead of getJSON
 
 in getJSON you pass in a callback the data received from there.
 while fetch returns a Promise 
