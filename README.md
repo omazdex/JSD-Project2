@@ -1,5 +1,11 @@
 # JSD-Project2
 ### JavaScript-GA Project 2
+
+A Wikipedia search engine that fetch 20 most relivant results to the user
+ featuring:
+*User login
+*History List
+
  By Omar A. Al-Khunein
 
 #
