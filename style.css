@@ -156,6 +156,12 @@ body {
   border-radius: 0.4em;
 }
 
+#history-list li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
 #search-label {
   color: white;
   font-weight: bold;

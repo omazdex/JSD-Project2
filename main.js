@@ -16,8 +16,15 @@ function addItem() {
   var ul = document.getElementById("history-list");
   var input = document.querySelector(".searchForm-input").value;
   var li = document.createElement("li");
-  li.appendChild(document.createTextNode(input));
+  var a = document.createElement("a");
+  a.setAttribute("href","");
+  a.appendChild(document.createTextNode(input));
+  li.appendChild(a);
   ul.appendChild(li);
+  a.onclick = function() {
+    fetchResults(a.innerHTML)
+    return false;
+  };
 }
 
 $("#clear-history-button").on("click", function() {
