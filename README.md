@@ -1,8 +1,6 @@
 <p align="center">
-  <img width="460" height="300" src="https://imgbbb.com/images/2019/12/10/logo2.png">
+  <img width="360" height="200" src="https://imgbbb.com/images/2019/12/10/logo2.png">
 </p>
-
-![logo](https://imgbbb.com/images/2019/12/10/logo2.png)
 # Wiki Finder
 ### JavaScript-GA Project 2
 
