@@ -1,4 +1,4 @@
-![Wiki finder logo](https://imgur.com/XkexP9D)
+![logo](omazdex.github.com/JSD-Project2/logo2.png)
 # Wiki Finder
 ### JavaScript-GA Project 2
 
