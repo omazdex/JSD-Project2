@@ -1,4 +1,4 @@
-![logo](omazdex.github.com/JSD-Project2/blob/master/logo2.png)
+![logo](https://imgbbb.com/images/2019/12/10/logo2.png)
 # Wiki Finder
 ### JavaScript-GA Project 2
 
