@@ -341,9 +341,9 @@ span.psw {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1070px) {
   .logo {
-    margin-left: 155px;
+    margin-left: 35%;
   }
 
   #logo {
@@ -352,7 +352,7 @@ span.psw {
 
   .searchForm-container {
     padding: 20px 0 20px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     height: auto;
     justify-content: space-between;
     flex-direction: column;
@@ -360,6 +360,7 @@ span.psw {
 
   .searchForm {
     margin: 20px auto 0;
+    margin-left: 10px;
   }
 
   .searchForm-input {
@@ -368,8 +369,8 @@ span.psw {
 
   .searchResults {
     width: 388px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px !important;
+    margin-right: 10px !important;
   }
 
   #history-container {
@@ -378,7 +379,14 @@ span.psw {
 
   .loginBtn {
     margin: 8px 0;
-    width: 100%;
+    /* width: 50px; */
+    margin-left: 34%;
+  }
+
+  .historyBtn{
+    /* width: 50px */
+    margin-left: 34%;
+    display: none ;
   }
 }
 
