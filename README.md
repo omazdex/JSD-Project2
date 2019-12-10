@@ -1,4 +1,5 @@
-# JSD-Project2
+![Wiki finder logo](https://imgur.com/XkexP9D)
+# Wiki Finder
 ### JavaScript-GA Project 2
 
 A Wikipedia search engine that fetch 20 most relivant results to the user
