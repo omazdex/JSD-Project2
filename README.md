@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="200" src="https://imgbbb.com/images/2019/12/10/logo2.png">
+  <img width="320" height="200" src="https://imgbbb.com/images/2019/12/10/logo2.png">
 </p>
 
 # Wiki Finder
