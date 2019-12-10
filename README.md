@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100" height="100" src="https://imgbbb.com/images/2019/12/10/logo2.png">
+  <img width="250" height="200" src="https://imgbbb.com/images/2019/12/10/logo2.png">
 </p>
 # Wiki Finder
 ### JavaScript-GA Project 2
